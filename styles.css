@@ -48,3 +48,22 @@ body{
   font-size:1.4rem;
   width:400px;
   }
+
+  @media (min-width:320px) and (max-width:480px) {
+    .container{
+      font-size: 17px;
+      text-align: center;
+    }
+    .check{
+     font-size: 18px;
+     
+      width: 200px;
+    }
+    .check input{
+      width: 150px;
+    }
+    .meaning{
+      font-size: 1.2rem;
+      width:230px;
+    }
+  }
