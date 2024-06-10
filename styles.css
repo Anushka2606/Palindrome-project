@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 5, 53);
+  }
+  
+  .container{
+    text-align:center;
+    height: 60vh;
+    font-size: 25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: white;
+    margin-top:70px;
+  }
+  
+  .check{
+    background-color: white;
+    color: black;
+    padding:30px 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 0 6px 6px rgb(17, 5, 154);
+  }
+  
+  .check input{
+    border: none;
+    width:250px;
+    border-bottom: 2px solid rgb(114, 2, 92);
+  }
+  
+  #check-btn{
+    padding:5px 20px;
+    border-radius:15px;
+    background-color: purple;
+    color:white;
+    border: none;
+  }
+  
+  .meaning {
+    display: inline;
+  background-color:rgb(4, 85, 4);
+  padding: 20px;
+  border-radius:25px;
+  margin-top: 25px;
+  font-size:1.4rem;
+  width:400px;
+  }
